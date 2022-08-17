@@ -1,9 +1,0 @@
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\bin\Debug\Fox Tales.dll
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\bin\Debug\Fox Tales.pdb
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.csproj.AssemblyReference.cache
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.AssemblyInfoInputs.cache
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.AssemblyInfo.cs
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.csproj.CoreCompileInputs.cache
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.dll
-D:\Programmiersachen\Games\2D Adventures\.mono\temp\obj\Debug\Fox Tales.pdb
