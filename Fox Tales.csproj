@@ -3,4 +3,8 @@
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>FoxTales</RootNamespace>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="script_templates/*.cs"/>
+  </ItemGroup>
 </Project>

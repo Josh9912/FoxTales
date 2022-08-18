@@ -1,4 +1,3 @@
-using System;
 using Godot;
 
 namespace FoxTales.Scripts
@@ -6,7 +5,7 @@ namespace FoxTales.Scripts
 	public class %CLASS% : %BASE%
 	{
 		/// <summary>
-		/// Called when the node enters the sceen tree for the frist time. 
+		/// Called when the node enters the scene tree for the first time. 
 		/// </summary>
 		public override void _Ready()
 		{
