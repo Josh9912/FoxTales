@@ -1,7 +1,7 @@
 using System;
 using Godot;
 
-namespace Skripts
+namespace FoxTales.Scripts
 {
 	public class %CLASS% : %BASE%
 	{
