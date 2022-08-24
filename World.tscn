@@ -1,77 +1,22 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
+[ext_resource path="res://Scripts/Player.cs" type="Script" id=1]
 [ext_resource path="res://World/Bush.png" type="Texture" id=2]
 [ext_resource path="res://Player/Player.png" type="Texture" id=3]
 
-[sub_resource type="CSharpScript" id=2]
-script/source = "using Godot;
-
-namespace FoxTales.Scripts
-{
-	public class World : Node2D
-	{
-		/// <summary>
-		/// Called when the node enters the scene tree for the first time. 
-		/// </summary>
-		public override void _Ready()
-		{
-			
-		}
-
-		/// <summary>
-		/// Called every frame
-		/// </summary>
-		/// <param name=\"delta\"> is the elapsed time since the previous frame</param>
-		public override void _Process(float delta)
-		{
-
-		}
-	}
-}
-"
-
-[sub_resource type="CSharpScript" id=1]
-script/source = "using System;
-using Godot;
-
-namespace FoxTales.Scripts
-{
-	public class Player : KinematicBody2D
-	{
-		/// <summary>
-		/// Called when the node enters the sceen tree for the frist time. 
-		/// </summary>
-		public override void _Ready()
-		{
-			
-		}
-
-		/// <summary>
-		/// Called every frame
-		/// </summary>
-		/// <param name=\"delta\"> is the elapsed time since the previous frame</param>
-		public override void _Process(float delta)
-		{
-
-		}
-	}
-}
-"
-
 [node name="World" type="Node2D"]
-script = SubResource( 2 )
 
 [node name="Bush" type="Sprite" parent="."]
-position = Vector2( 31, 40 )
+position = Vector2( 40, 31 )
 texture = ExtResource( 2 )
 
-[node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 129, 75 )
-script = SubResource( 1 )
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 168, 98 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="Player"]
+[node name="Sprite" type="Sprite" parent="KinematicBody2D"]
 texture = ExtResource( 3 )
 hframes = 60
